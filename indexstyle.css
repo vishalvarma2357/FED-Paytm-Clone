@@ -1,0 +1,138 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7faff;
+}
+/*box 1 *{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}*/
+.navbar{
+    height: 90px;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 5px 20px rgba(0, 41, 112, 0.5);
+
+}
+.nav-logo{
+    height: 70px;
+    width: 300px;
+}
+.logo{
+    background-image: url("Paytm logo.jpg");
+    background-size: cover;
+    height: 70px;
+    width: 85%;
+}
+
+.navbar .menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.sign-in-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.travel-section {
+  padding: 20px;
+  background-color: #e8f4ff;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs a {
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #007bff;
+  border-bottom: 3px solid transparent;
+}
+
+.tabs a.active {
+  font-weight: bold;
+  border-bottom: 3px solid #007bff;
+}
+
+.booking-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip-type {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.trip-type label {
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.form-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.field input,
+.field select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.special-fares {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.special-fares label {
+  font-size: 14px;
+}
+
+.search-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paytm Travel</title>
+  <link rel="stylesheet" href="indexstyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+    <!-- box1 -->
+    <div class="navbar" >
+        <div class="nav-logo">
+            <div class="logo">
+
+            </div>
+
+        </div>
+   <!-- <header class="navbar">
+        <div class="logo">
+           <img src="Paytm logo.jpg" alt="Paytm Logo">
+        </div> -->
+
+
+<!-- box2 -->
+    <nav class="menu">
+        <h3>
+      <a href="#">Paytm for Consumer</a>
+      <a href="#">Paytm For Business</a>
+      <a href="#">Investor Relations</a>
+      <a href="#">Company</a>
+      <a href="#">Career</a>
+    </h3>
+    </nav>
+    <button class="sign-in-btn">
+        <i class="fa-solid fa-user"></i>
+        Sign In</button>
+  </header>
+
+  <main class="travel-section">
+    <nav class="tabs">
+      <a href="#" class="active">Flights</a>
+      <a href="#">Bus</a>
+      <a href="#">Trains</a>
+      <a href="#">Intl. Flights</a>
+    </nav>
+
+    <div class="booking-form">
+      <div class="trip-type">
+        <label><input type="radio" name="trip" checked> One Way</label>
+        <label><input type="radio" name="trip"> Round Trip</label>
+      </div>
+
+      <div class="form-fields">
+        <div class="field">
+          <label>From</label>
+          <input type="text" value="DEL" disabled>
+        </div>
+        <div class="field">
+          <label>To</label>
+          <input type="text" value="BOM" disabled>
+        </div>
+        <div class="field">
+          <label>Departure Date</label>
+          <input type="date" value="2024-12-25">
+        </div>
+        <div class="field">
+          <label>Travellers & Cabin Class</label>
+          <select>
+            <option>1 Traveller, Economy</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="special-fares">
+        <label><input type="checkbox"> Armed Forces</label>
+        <label><input type="checkbox"> Student</label>
+        <label><input type="checkbox"> Senior Citizen</label>
+      </div>
+
+      <button class="search-btn">Search Flights</button>
+    </div>
+  </main>
+</body>
+</html>
